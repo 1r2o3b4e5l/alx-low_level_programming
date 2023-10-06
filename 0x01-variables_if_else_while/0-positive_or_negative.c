@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-int main(void)
+int main()
 {
     int n;
 
@@ -16,5 +16,5 @@ int main(void)
     else
         printf("%d is negative\n", n);
 
-    return (0);
+    exit (0);
 }
