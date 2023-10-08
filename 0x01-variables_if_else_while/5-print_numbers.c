@@ -5,12 +5,21 @@
  *
  * Return: 0 Always (success)
  */
+/* more headers goes there */
+
+/* betty style doc for function main goes there */
 int main(void)
 {
- int i;
+int number = 0;
 
- for (i = 0; i < 10; i++)
-  putchar(i + '0');
- putchar('\n');
- return (0);
+while (number < 10)
+{
+printf("%d", number);
+number++;
 }
+
+printf("\n");
+
+return ('0');
+
+} 
