@@ -1,13 +1,16 @@
+#include <stdlib.h>
+#include <time.h>
 #include <stdio.h>
-/**
- * main -pints all single digit numbers of base 10 starting from 0
- * followed by a new line
- *
- * Return: 0 Always (success)
- */
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
+/**
+ * main -prints all single digit numbers of base 10 starting from 0
+ * followed by a new line.
+ *
+ * Return:Always (0) success
+ */
+
 int main(void)
 {
 int number = 0;
@@ -21,5 +24,4 @@ number++;
 printf("\n");
 
 return ('0');
-
-} 
+}
