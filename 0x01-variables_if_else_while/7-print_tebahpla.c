@@ -3,7 +3,7 @@
  * main -prints the lowercase alphabet in reverse
  * followed by a new line.
  *
- * Return: 0 Alway (success)
+ * Return: Always 0 (Success)
  */
 /* more headers goes there */
 
