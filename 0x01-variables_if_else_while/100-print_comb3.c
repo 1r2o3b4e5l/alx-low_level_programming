@@ -1,12 +1,14 @@
 #include <stdio.h>
+#include <time.h>
+/* more headers goes there */
+
+/* betty style doc for function main goes there */
 /**
  * main - Entry point
  *
  * Return: Always 0 (Success)
  */
-/* more headers goes there */
 
-/* betty style doc for function main goes there */
 int main(void)
 {
 int i, j;
@@ -28,5 +30,5 @@ putchar(' ');
 
 putchar('\n');
 
-return ('0');
+return (0);
 }
