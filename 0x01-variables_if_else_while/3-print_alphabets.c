@@ -1,13 +1,24 @@
 #include <stdio.h>
+
 /**
- * main -prints the lowercase and  uppercase
+ * main - Entry point
  *
- * Retun: 0 Always (success)
+ * Return: Always 0 (Success)
  */
+/* more headers goes there */
+
+/* betty style doc for function main goes there */
 int main(void)
 {
- putchar('a');
- putchar('A');
- putchar('\n');
- return (0);
+char c;
+
+for (c = 'a'; c <= 'z'; c++)
+putchar(c);
+
+for (c = 'A'; c <= 'Z'; c++)
+putchar(c);
+
+putchar('\n');
+
+return (0);
 }
