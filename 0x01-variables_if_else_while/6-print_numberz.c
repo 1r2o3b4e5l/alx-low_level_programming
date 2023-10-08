@@ -5,7 +5,7 @@
  * main -prints all single digit numbers of base 10 starting from 0
  * followed by a new line
  *
- * Return: 0 Always (success)
+ * Return: Always 0 (Success)
  */
 /* more headers goes there */
 
