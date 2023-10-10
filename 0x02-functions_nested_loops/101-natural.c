@@ -9,14 +9,17 @@
 /* betty style doc for function main goes there */
 int main(void)
 {
-int sum = 0;
-for (int i = 0; i < 1024; i++)
+int c, a = 0;
+while (c < 1024)
 {
-if (i % 3 == 0 || i % 5 == 0)
+if ((c % 3 == 0) || (c % 5 == 0))
+}
 {
-sum += i;
+a += c;
 }
+{
+c++;
 }
-printf("The sum of all the multiples of 3 or 5 below 1024 is: %d\n", sum);
+printf("%d\n", a);
 return (0);
 }
