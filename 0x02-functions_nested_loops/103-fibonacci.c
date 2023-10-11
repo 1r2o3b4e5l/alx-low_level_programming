@@ -3,26 +3,24 @@
 
 /* betty style doc for function main goes there */
 /**
- * main - Prints the sum of Even Fibonacci numbers
- * less than 4000000.
+ *main - print first 50 fibonacci
  *
- * Return: Nothing!
+ *Return:  Always 0 (Success)
  */
-
 int main(void)
 {
-
-int i = 0;
-long j = 1, k = 2, sum = k;
-
-while (k + j < 4000000)
+unsigned long e, g = 1, d = 2, sum;
+float total_sum;
+for (e = 0; e < 49; e++)
 {
-k += j;
-if (k % 2 == 0)
-SUM += k;
-j = k - j;
-++1;
+if ((d % 2 == 0) && (d <= 4000000))
+{
+total_Sum = total_Sum + d;
 }
-printf("%ld\n", sum);
+sum = g + d;
+g = d;
+d = sum;
+}
+printf("%ld\n", tSum);
 return (0);
 }
