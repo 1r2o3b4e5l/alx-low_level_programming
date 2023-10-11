@@ -1,25 +1,23 @@
-#include <main.h>
+#include <stdio.h>
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
-
 /**
- * main - Entry point
- * Description: computes the sum of all
- *              the multiples of 3 or 5
- *              below 1024 (excluded)
- *
- *Return: Always 0 (Success)
+ * main - Lists all the natural numbers below 1024 (excluded)
+ *        that are multiples of 3 or 5.
+ * 
+ * Return: Always 0.
  */
 int main(void)
 {
-int sum, num;
-
-for (num = 0; num < 1024; num++)
+int i, sum = 0;
+for (i = 0; i < 1024; i++)
 {
-if ((num % 3 == 0) || (num % 5 == 0))
-sum += num;
+if ((i % 3) == 0 || (i % 5) == 0)
+sum += i;
 }
+
 printf("%d\n", sum);
+
 return (0);
 }
