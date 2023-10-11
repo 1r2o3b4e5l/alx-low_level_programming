@@ -9,18 +9,17 @@
  */
 int main(void)
 {
-unsigned long e, g = 1, d = 2, sum;
-float total_sum;
-for (e = 0; e < 49; e++)
+unsigned long n1 = 0, n2 = 1, n3 = 0, sum = 0;
+while (n3 <= 4000000)
 {
-if ((d % 2 == 0) && (d <= 4000000))
-{
-total_Sum = total_Sum + d;
+n3 = n1 + n2;
+n1 = n2;
+n2 = n3;
+
+if ((n1 % 2) == 0)
+sum += n1;
+
 }
-sum = g + d;
-g = d;
-d = sum;
-}
-printf("%ld\n", tSum);
+printf("%ld\n", sum);
 return (0);
 }
