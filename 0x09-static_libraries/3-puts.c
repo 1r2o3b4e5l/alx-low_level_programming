@@ -3,11 +3,16 @@
 
 /* betty style doc for function main goes there */
 /**
- * _puts - prints a string, followed by a new line, to stdou
- *
- * @str: string to print
- */
+  * _puts - Prints a string
+  * @str: The string to print
+  *
+  * Return: void
+  */
 void _puts(char *str)
 {
-printf("%s\n", str);
+for (; *str != '\0'; str++)
+{
+_putchar(*str);
+}
+_putchar('\n');
 }
